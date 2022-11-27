@@ -1,0 +1,93 @@
+body
+{
+	user-select: none;
+	margin: 0;
+	background-image: url(widok.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial;
+}
+main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 3vw 3vw 2vw;
+	background-color: white;
+	transform: translate(-50%, -50%);
+}
+header
+{
+	height: 3vw;
+	font-size: 3vw;
+	text-align: center;
+}
+input
+{
+	width: 18vw;
+	height: 2vw;
+	margin-top: 3vw;
+	padding: 0.6vw 1vw 0.4vw;
+	border: 0;
+	border-bottom: 0.25vw solid darkgrey;
+	outline: none;
+	background-color: whitesmoke;
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+}
+div
+{
+	display: flex;
+}
+#password
+{
+	width: 15vw;
+}
+span
+{
+	display: block;
+	width: 3vw;
+	height: 2.25vw;
+	margin-top: 3vw;
+	padding-top: 0.75vw;
+	border-bottom: 0.25vw solid darkgrey;
+	background-color: whitesmoke;
+	font-size: 2vw;
+	text-align: center;
+	color: grey;
+}
+#crossedEye
+{
+	display: none;
+}
+input:focus, div:focus-within #password, div:focus-within span
+{
+	border-bottom-color: dodgerblue;
+}
+input[type=submit]
+{
+	box-sizing: content-box;
+	height: 3vw;
+	margin-bottom: 1vw;
+	padding: 0 1vw;
+	border: 0;
+	border-radius: 2.5vw;
+	background-color: dodgerblue;
+	font-size: 1.5vw;
+	color: white;
+	letter-spacing: 0.2vw;
+	cursor: pointer;
+}
+a
+{
+	display: block;
+	text-align: center;
+	height: 1vw;
+	margin-top: 0.75vw;
+	font-size: 1vw;
+	color: grey;
+}
+a:hover
+{
+	color: dodgerblue;
+}
